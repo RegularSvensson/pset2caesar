@@ -56,6 +56,8 @@ int main (int argc, string argv[])
         // else, non-alphabetic char
         else
         {
+            // print non-alphabetic char
+            printf("%c", text[i]);
         }
     }
     
