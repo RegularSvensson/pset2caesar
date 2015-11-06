@@ -5,5 +5,6 @@
 // main function
 int main (int argc, string argv[])
 {
+    // print hello world (test)
     printf("hello, world\n");
 }
