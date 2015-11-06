@@ -53,6 +53,10 @@ int main (int argc, string argv[])
                 printf("%c", letter);
             }
         }
+        // else, non-alphabetic char
+        else
+        {
+        }
     }
     
     // return 0 for success
