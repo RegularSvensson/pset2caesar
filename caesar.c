@@ -3,6 +3,7 @@
 #include <cs50.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 // main function
 int main (int argc, string argv[])
