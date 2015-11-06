@@ -6,7 +6,7 @@
 #include <ctype.h>
 
 // main function
-int main (int argc, string argv[])
+int main(int argc, string argv[])
 {
     // validate argc
     if (argc != 2)
