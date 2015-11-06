@@ -1,3 +1,18 @@
+/*
+ * caesar.c
+ * by Elias Svensson
+ *
+ * Takes a key and a plaintext string, 
+ * enciphers plantext according to caesar cipher and key,
+ * and outputs encrypted string.
+ *
+ * Usage: ./caesar key
+ *
+ * v1. chec50 :) style50 :)
+ *
+ */
+
+
 // include libraries
 #include <stdio.h>
 #include <cs50.h>
