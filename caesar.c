@@ -3,7 +3,7 @@
 #include <cs50.h>
 
 // main function
-int main (void)
+int main (int argc, string argv[])
 {
     printf("hello, world\n");
 }
