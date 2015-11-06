@@ -31,6 +31,10 @@ int main (int argc, string argv[])
     // loop over each character
     for (int i = 0; i < strlen(text); i++)
     {
+        // check if character is in alphabet
+        if (isalpha(text[i]))
+        {
+        }
     }
     
     // return 0 for success
