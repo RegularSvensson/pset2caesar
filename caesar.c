@@ -23,6 +23,9 @@ int main (int argc, string argv[])
         return 1;
     } 
     
+    // get plaintext
+    string text = GetString();
+    
     // print hello world (test)
     printf("hello, world\n");
 
