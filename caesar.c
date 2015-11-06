@@ -14,20 +14,23 @@ int main (int argc, string argv[])
     }
     
     // store key as integer
-    int k = atoi(argv[1]);
+    int key = atoi(argv[1]);
     
     // validate key
-    if (k == 0)
+    if (key == 0)
     {
         printf("Please supply an integer key for caesar.\n");
         return 1;
     } 
     
+    // get plaintext
+    string text = GetString();
+    
     // print hello world (test)
     printf("hello, world\n");
 
     // print key
-    printf("key: %i\n", k);
+    printf("key: %i\n", key);
     
     // print number of command line arguments
     printf("Argc: %i\n", argc);
@@ -37,6 +40,9 @@ int main (int argc, string argv[])
     {
         printf("Argv place %i: %s\n", i, argv[i]);
     }
+    
+    // print text
+    printf("Text: %s\n", text);
     
     // return 0 for success
     return 0;
