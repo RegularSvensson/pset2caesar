@@ -37,6 +37,9 @@ int main (int argc, string argv[])
             // check if uppercase
             if (isupper(text[i]))
             {
+                // encipher letter
+                char letter = ((text[i] - 65 + key) % 26) + 65;
+                
             }
         }
     }
