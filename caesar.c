@@ -13,6 +13,9 @@ int main (int argc, string argv[])
         return 1;
     }
     
+    // store key as integer
+    int k = atoi(argv[1]);
+    
     // print hello world (test)
     printf("hello, world\n");
     
