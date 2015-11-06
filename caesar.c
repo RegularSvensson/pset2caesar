@@ -43,6 +43,10 @@ int main (int argc, string argv[])
                 // print letter
                 printf("%c", letter);
             }
+            // else, is lowercase
+            else
+            {
+            }
         }
     }
     
