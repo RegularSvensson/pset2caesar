@@ -28,6 +28,8 @@ int main (int argc, string argv[])
     // get plaintext
     string text = GetString();
     
+    // loop over each character
+    for (int i = 0; i < strlen(text); i++)
     {
     }
     
