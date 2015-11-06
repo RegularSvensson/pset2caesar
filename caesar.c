@@ -46,6 +46,9 @@ int main (int argc, string argv[])
             // else, is lowercase
             else
             {
+                // encipher letter
+                char letter = ((text[i] - 97 + key) % 26) + 97;
+                
             }
         }
     }
