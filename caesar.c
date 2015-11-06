@@ -25,6 +25,9 @@ int main (int argc, string argv[])
     
     // print hello world (test)
     printf("hello, world\n");
+
+    // print key
+    printf("key: %i\n", k);
     
     // print number of command line arguments
     printf("Argc: %i\n", argc);
