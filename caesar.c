@@ -16,6 +16,13 @@ int main (int argc, string argv[])
     // store key as integer
     int k = atoi(argv[1]);
     
+    // validate key
+    if (k == 0)
+    {
+        printf("Please supply an integer key for caesar.\n");
+        return 1;
+    } 
+    
     // print hello world (test)
     printf("hello, world\n");
     
