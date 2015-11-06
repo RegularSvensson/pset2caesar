@@ -11,4 +11,10 @@ int main (int argc, string argv[])
     // print number of command line arguments
     printf("Argc: %i\n", argc);
     
+    // print individual command line arguments
+    for (int i = 0; i < argc; i++)
+    {
+        printf("Argv place %i: %s\n", i, argv[i]);
+    }
+    
 }
