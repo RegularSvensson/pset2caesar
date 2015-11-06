@@ -41,6 +41,9 @@ int main (int argc, string argv[])
         printf("Argv place %i: %s\n", i, argv[i]);
     }
     
+    // print text
+    printf("Text: %s\n", text);
+    
     // return 0 for success
     return 0;
     
