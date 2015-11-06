@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 // main function
-int main (int argc, string argv[])
+int main(int argc, string argv[])
 {
     // validate argc
     if (argc != 2)
@@ -26,23 +28,40 @@ int main (int argc, string argv[])
     // get plaintext
     string text = GetString();
     
-    // print hello world (test)
-    printf("hello, world\n");
-
-    // print key
-    printf("key: %i\n", key);
-    
-    // print number of command line arguments
-    printf("Argc: %i\n", argc);
-    
-    // print individual command line arguments
-    for (int i = 0; i < argc; i++)
+    // loop over each character
+    for (int i = 0; i < strlen(text); i++)
     {
-        printf("Argv place %i: %s\n", i, argv[i]);
+        // check if character is in alphabet
+        if (isalpha(text[i]))
+        {
+            // check if uppercase
+            if (isupper(text[i]))
+            {
+                // encipher letter
+                char letter = ((text[i] - 65 + key) % 26) + 65;
+                
+                // print letter
+                printf("%c", letter);
+            }
+            // else, is lowercase
+            else
+            {
+                // encipher letter
+                char letter = ((text[i] - 97 + key) % 26) + 97;
+                
+                // print letter
+                printf("%c", letter);
+            }
+        }
+        // else, non-alphabetic char
+        else
+        {
+            // print non-alphabetic char
+            printf("%c", text[i]);
+        }
     }
-    
-    // print text
-    printf("Text: %s\n", text);
+    // print new line
+    printf("\n");
     
     // return 0 for success
     return 0;
