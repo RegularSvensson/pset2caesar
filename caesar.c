@@ -34,6 +34,10 @@ int main (int argc, string argv[])
         // check if character is in alphabet
         if (isalpha(text[i]))
         {
+            // check if uppercase
+            if (isupper(text[i]))
+            {
+            }
         }
     }
     
