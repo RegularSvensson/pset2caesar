@@ -1,6 +1,7 @@
 // include libraries
 #include <stdio.h>
 #include <cs50.h>
+#include <stdlib.h>
 
 // main function
 int main (int argc, string argv[])
