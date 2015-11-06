@@ -60,6 +60,8 @@ int main (int argc, string argv[])
             printf("%c", text[i]);
         }
     }
+    // print new line
+    printf("\n");
     
     // return 0 for success
     return 0;
