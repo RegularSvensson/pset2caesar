@@ -28,23 +28,8 @@ int main (int argc, string argv[])
     // get plaintext
     string text = GetString();
     
-    // print hello world (test)
-    printf("hello, world\n");
-
-    // print key
-    printf("key: %i\n", key);
-    
-    // print number of command line arguments
-    printf("Argc: %i\n", argc);
-    
-    // print individual command line arguments
-    for (int i = 0; i < argc; i++)
     {
-        printf("Argv place %i: %s\n", i, argv[i]);
     }
-    
-    // print text
-    printf("Text: %s\n", text);
     
     // return 0 for success
     return 0;
