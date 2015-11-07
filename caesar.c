@@ -8,7 +8,7 @@
  *
  * Usage: ./caesar key
  *
- * v1. chec50 :) style50 :)
+ * v1. check50 :) style50 :)
  *
  */
 
